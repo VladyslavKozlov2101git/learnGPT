@@ -17,7 +17,7 @@ const Card: React.FC<CardProps> = ({
       <p>{meaning}</p>
       <i>{example}</i>
       <i>{example_ua}</i>
-      <span className={styles['order']}>{order}/10</span>
+      <span className={styles['order']}>{order + 1}/10</span>
     </div>
   );
 };
