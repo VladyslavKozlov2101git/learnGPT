@@ -19,7 +19,7 @@ export const useCards = create(
                 {
                     headers: {
                         "Content-Type": "application/json",
-                        Authorization: `Bearer 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`,
+                        Authorization: `Bearer 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`,
                     },
                 })
 
