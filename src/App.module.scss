@@ -1,0 +1,29 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    rgba(236, 91, 117, 0.25),
+    rgba(240, 124, 162, 0.25),
+    rgba(237, 156, 199, 0.25),
+    rgba(233, 187, 226, 0.25),
+    rgba(234, 216, 242, 0.25),
+    rgba(226, 228, 252, 0.25),
+    rgba(225, 239, 255, 0.25),
+    rgba(232, 248, 255, 0.25),
+    rgba(209, 250, 254, 0.25),
+    rgba(192, 251, 239, 0.25),
+    rgba(191, 249, 213, 0.25),
+    hsla(94, 74%, 83%, 0.25)
+  );
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  max-width: 100%;
+}
